@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action= "add">
+		<!-- Enter id of student : <input type="text" name="id"><br> -->
+		 Enter 1st number <input type="text" name="t1"><br>
+		 Enter 2nd number <input type="text" name="t2"><br>
+		<input type="submit">
+	</form>
+</body>
+</html>

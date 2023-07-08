@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fill Form</title>
+</head>
+<body>
+	<div class="form">
+		<table>
+			<tr>
+				<td>Enter Your Name </td>
+				<td><input type="text" name="studetn_name" placeholder="Enter Name Here"></td>
+			</tr>
+			
+			<tr>
+				<td>Enter Your Email </td>
+				<td><input type="email" name="studetn_email" placeholder="Enter email Here"></td>
+			</tr>
+			
+			<tr>
+				<td>Enter Your Password </td>
+				<td><input type="password" name="studetn_password" placeholder="Enter Password Here"></td>
+			</tr>
+			
+			<tr>
+				<td>Select Gender </td>
+				<td><input type="radio" name="studetn_gender" value="male">male &nbsp; &nbsp; <input type="radio" name="studetn_gender" value="female">female</td>
+			</tr>
+			
+			<tr>
+				<td>Enter Your Coursse </td>
+				<td>
+					<select name="student_course">
+						<option value="Java">Java</option>
+						<option value="Python">Python</option>
+						<option value="C++">C++</option>
+						<option value="JavaScript">JavaScript</option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td style="text-align: right">
+					<input type="checkbox" value="checked" name="condition">
+				</td>
+				<td>
+					Agree terms and conditions
+				</td>
+			</tr>
+			
+			<tr>
+				<td></td>
+				<td>
+					<button type="submit">Register</button>
+					<button type="reset">Reset</button>
+				</td>
+			</tr>
+			
+		</table>
+	</div>
+
+</body>
+</html>

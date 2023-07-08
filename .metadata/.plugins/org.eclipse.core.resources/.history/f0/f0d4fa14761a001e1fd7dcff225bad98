@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fill Form</title>
+<style>
+.container {
+	width: 40%;
+	border: 1px solid black;
+	margin: auto;
+	padding: 20px;
+	font-size: 20px;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1>My Form</h1>
+		<form action="register">
+			<table>
+				<tr>
+					<td>Enter Your Name</td>
+					<td><input type="text" name="studetn_name"
+						placeholder="Enter Name Here"></td>
+				</tr>
+
+				<tr>
+					<td>Enter Your Email</td>
+					<td><input type="email" name="studetn_email"
+						placeholder="Enter email Here"></td>
+				</tr>
+
+				<tr>
+					<td>Enter Your Password</td>
+					<td><input type="password" name="studetn_password"
+						placeholder="Enter Password Here"></td>
+				</tr>
+
+			</table>
+		</form>
+
+
+	</div>
+
+</body>
+</html>

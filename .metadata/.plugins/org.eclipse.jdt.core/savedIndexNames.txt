@@ -1,0 +1,10 @@
+INDEX VERSION 1.132+E:\Coding journey\Java Servlet\.metadata\.plugins\org.eclipse.jdt.core
+3786319218.index
+1865797976.index
+2203274743.index
+3086932031.index
+1954623964.index
+2982304743.index
+3237603497.index
+1697126525.index
+1091389553.index

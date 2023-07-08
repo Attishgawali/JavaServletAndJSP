@@ -1,0 +1,31 @@
+package com.practice;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class servlet1 extends HttpServlet{
+	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
+		
+		PrintWriter out=res.getWriter();
+		
+		String userName = req.getParameter("username");
+		System.out.println("servlet1 is called ... username is : "+userName);
+		
+		out.println("<!DOCTYPE html>");
+		out.println( "<html>" );
+		out.println( "<head>" );
+		out.println( "<title>welcome file</title>" );
+		out.println( "</head>" );
+
+		out.println( "<body>" );
+		out.println("<h1> hello "+ userName+ "</h1>");
+		out.println( "<h1> <a href='servlet2'>Go to servlet2</a></h1>" );
+		out.println( "</body>" );
+		out.println( "</html>" );
+		
+	}
+}

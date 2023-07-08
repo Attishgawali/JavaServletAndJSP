@@ -1,0 +1,7 @@
+package com.practice;
+
+import HttpServlet;
+
+public class servlet2 extends HttpServlet {
+
+}
