@@ -4,20 +4,24 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 import javax.servlet.ServletContext;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+@WebServlet("com/practice/sqServlet")
 public class sqServlet extends HttpServlet{
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException{
 		PrintWriter out = res.getWriter();
 		
 		//GETTING DATA FROM REQUEST DISPATCHER
-//		int k = (int)req.getAttribute("k");
-//		k=k*k;
+		int k = (int)req.getAttribute("k");
+		k=k*k;
+		
+		out.println("Result is " + k);
 	
 		//GETTING DATA FROM URL REWRITING
 //		int k =(int)req.getParameter("k");

@@ -4,9 +4,15 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	id="WebApp_ID" version="4.0">
 
-	<servlet>
+	<!-- 
+	 <servlet>
 		<servlet-name>abc</servlet-name>
 		<servlet-class>com.practice.sevlet1</servlet-class>
+
+		<init-param>
+			<param-name>name</param-name>
+			<param-value>Gawali</param-value>
+		</init-param>
 	</servlet>
 
 	<servlet-mapping>
@@ -22,7 +28,17 @@
 	<servlet-mapping>
 		<servlet-name>square</servlet-name>
 		<url-pattern>/sqServlet</url-pattern>
-	</servlet-mapping> 
-	
+	</servlet-mapping>
 
+	<context-param>
+		<param-name>name</param-name>
+		<param-value>Attish</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>Phone</param-name>
+		<param-value>Vivo</param-value>
+	</context-param>
+	 -->
+	
 </web-app>

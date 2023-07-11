@@ -1,9 +1,11 @@
-INDEX VERSION 1.4+E:\Coding journey\Java Servlet\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3086932031.index
-2203274743.index
-3237603497.index
-835353127.index
-1697126525.index
+INDEX VERSION 1.4+E:\Coding journey\Java Servlet and JSP\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
 2982304743.index
-283492549.index
-283492549.index
+3086932031.index
+2974346118.index
+615231966.index
+2759861237.index
+2203274743.index
+3553912497.index
+1697126525.index
+2096694017.index
+3237603497.index

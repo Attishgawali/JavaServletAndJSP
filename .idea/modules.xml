@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" filepath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoApp/DemoApp.iml" filepath="$PROJECT_DIR$/DemoApp/DemoApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Register/Register.iml" filepath="$PROJECT_DIR$/Register/Register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servers/Servers.iml" filepath="$PROJECT_DIR$/Servers/Servers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoApp2/demoApp2.iml" filepath="$PROJECT_DIR$/demoApp2/demoApp2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoApp3/demoApp3.iml" filepath="$PROJECT_DIR$/demoApp3/demoApp3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/url-rewriting/url-rewriting.iml" filepath="$PROJECT_DIR$/url-rewriting/url-rewriting.iml" />
+    </modules>
+  </component>
+</project>
