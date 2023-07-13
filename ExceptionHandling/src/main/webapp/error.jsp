@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html"
     pageEncoding="UTF-8"%>
 <%@ page isErrorPage="true" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,6 +23,8 @@
 		<img src="img/404 error page.png" class="img-fluid">
 		
 		<h1 class="display-3" >Sorry ! something went wrong</h1>
+		
+		
 		<a class="btn btn-outline-primary" href="index.jsp">Home Page</a>
 	</div>
 	

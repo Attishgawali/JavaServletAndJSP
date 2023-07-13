@@ -21,10 +21,9 @@
 	} catch (Exception e) {
 		// Log the error
 		System.err.println("An exception occurred: " + e.getMessage());
-
-		// Redirect to the error page
-		
+	
 		response.sendRedirect("error.jsp");
+		
 	}
 	%>
 

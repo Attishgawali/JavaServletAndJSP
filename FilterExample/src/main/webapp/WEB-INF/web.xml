@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>FilterExample</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>profileServlet</servlet-name>
+		<servlet-class>com.practice.ProfileServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>profileServlet</servlet-name>
+		<url-pattern>/ProfileServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>OrderServlet</servlet-name>
+		<servlet-class>com.practice.OrderServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>OrderServlet</servlet-name>
+		<url-pattern>/OrderServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<!-- Filter -->
+	<filter>
+		<filter-name>filter1</filter-name>
+		<filter-class>com.practice.MyFilter</filter-class>
+	</filter>
+	
+	<!-- filtermapping -->
+	
+	<filter-mapping>
+		<filter-name>filter1</filter-name>
+		<url-pattern>/ProfileServlet</url-pattern>
+		<url-pattern>/OrderServlet</url-pattern>
+	</filter-mapping>
+</web-app>

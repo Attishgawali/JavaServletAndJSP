@@ -1,7 +1,0 @@
-package com.practice;
-
-import javax.servlet.http.HttpServlet;
-
-public class servlet1 extends HttpServlet{
-	
-}
