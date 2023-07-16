@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,5 +17,7 @@
 	<form action="Register.jsp" method="post">
 		<button type="submit">Register</button> <br> 
 	</form>
+	
+	
 </body>
 </html>
